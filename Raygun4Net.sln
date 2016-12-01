@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{27230BDA-7E05-467C-88FF-72C163F1861E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{59A7A025-0D3B-4B4D-9747-BDF72C8B0C55}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Raygun4NetCoreExample", "src\Raygun4NetCoreExample\Raygun4NetCoreExample.xproj", "{1367C7B0-1E71-4BBC-AFE8-ACCA200399FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1367C7B0-1E71-4BBC-AFE8-ACCA200399FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1367C7B0-1E71-4BBC-AFE8-ACCA200399FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1367C7B0-1E71-4BBC-AFE8-ACCA200399FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1367C7B0-1E71-4BBC-AFE8-ACCA200399FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1367C7B0-1E71-4BBC-AFE8-ACCA200399FB} = {27230BDA-7E05-467C-88FF-72C163F1861E}
+	EndGlobalSection
+EndGlobal
